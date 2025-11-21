@@ -7,6 +7,7 @@ import IMG2 from '../../assets/project2.png';
 import IMG3 from '../../assets/project3.png';
 import IMG4 from '../../assets/project4.png';
 import IMG5 from '../../assets/project5.png';
+import IMG6 from '../../assets/project6.png';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -114,6 +115,24 @@ const data = [
       },
       {
         id: 3,
+        tech: 'CSS',
+      },
+    ],
+  },
+  {
+    id: 6,
+    image: IMG6,
+    title: 'GOA Buildind',
+    detail: 'This is an app to showcase the skills of GOA Building, which is a Building company',
+    github: 'https://github.com/dieum512/countries-app',
+    demo: 'https://coutries-app.onrender.com/',
+    stack: [
+      {
+        id: 1,
+        tech: 'React',
+      },
+      {
+        id: 2,
         tech: 'CSS',
       },
     ],
