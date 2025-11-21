@@ -1,0 +1,79 @@
+.portfolio__container {
+  width: 70%;
+  position: unset;
+}
+
+.swiper__cont {
+  position: relative;
+  padding-bottom: 6rem;
+}
+
+.swiper__cont .swiper {
+  width: 80%;
+  position: unset;
+}
+
+.swiper__cont .swiper-slide {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  gap: 3%;
+}
+
+.portfolio_item-details h3 {
+  margin: 0.5rem 0 0.7rem;
+}
+
+.portfolio_item-details p {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-light);
+}
+
+.stack__container {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.stack__container li {
+  padding: 5px 10px;
+  background: var(--color-primary-variant);
+  border-radius: 5px;
+}
+
+.portfolio__item-cta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* ==================== TABLET VERSIOON ==================== */
+@media (max-width: 1020px) {
+  .swiper__cont .swiper-button-prev,
+  .swiper__cont .swiper-button-next {
+    display: none;
+  }
+
+  .swiper__cont .swiper-slide {
+    grid-template-columns: 1fr;
+  }
+
+  .swiper__cont .swiper-slide .portfolio__item-image {
+    margin: 0 10% 0;
+  }
+
+  .portfolio_item-details h3 {
+    text-align: center;
+  }
+
+  .portfolio__item-cta {
+    justify-content: center;
+  }
+}
+
+/* ==================== PHONE VERSIOON ==================== */
+@media (max-width: 600px) {
+  .swiper__cont .swiper-slide .portfolio__item-image {
+    margin: 0;
+  }
+}
