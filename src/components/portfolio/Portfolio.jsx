@@ -125,7 +125,7 @@ const data = [
     title: 'GOA Buildind',
     detail: 'This is an app to showcase the skills of GOA Building, which is a Building company',
     github: 'https://github.com/dieum512/goa',
-    demo: 'goabuilging.netlify.app',
+    demo: 'https://goabuilging.netlify.app',
     stack: [
       {
         id: 1,
