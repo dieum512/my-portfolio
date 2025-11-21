@@ -124,8 +124,8 @@ const data = [
     image: IMG6,
     title: 'GOA Buildind',
     detail: 'This is an app to showcase the skills of GOA Building, which is a Building company',
-    github: 'https://github.com/dieum512/countries-app',
-    demo: 'https://coutries-app.onrender.com/',
+    github: 'https://github.com/dieum512/goa',
+    demo: 'goabuilging.netlify.app',
     stack: [
       {
         id: 1,
